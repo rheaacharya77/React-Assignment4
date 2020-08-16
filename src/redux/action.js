@@ -1,7 +1,8 @@
 
- export  const addTodo = (todo) => ({
-    return: {
+   export const addtodo = (todo) => ({
         type: "ADD_TODO",
         todo: todo
-    }
-})
+    
+ })
+
+
