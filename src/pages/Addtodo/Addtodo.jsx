@@ -21,6 +21,9 @@ class Addtodo extends React.Component{
             addTodo = (e) => {
                 e.preventDefault();
                 this.props.updatelist(this.state.text);
+                this.setState({
+                    text:""
+                })
                               }
             
              handleInput = (e) => {
